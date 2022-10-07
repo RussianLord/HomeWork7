@@ -183,5 +183,5 @@ void Sum(int[,] numbers)
     Console.Write("]");
 }
 // HW1();
-HW2();
+// HW2();
 // HW3();
