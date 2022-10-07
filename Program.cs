@@ -42,7 +42,7 @@ void PrintArrayDouble(double[,] numbers)
 void HW2()
 {
     Console.Clear();
-    Console.WriteLine("Данная программа выводит элемент массива по заданным индексам...");
+    Console.WriteLine("Данная программа выводит элемент массива или индекс элемента...");
     Console.WriteLine("Введите количество строк в массиве...");
     int m = Convert.ToInt32(Console.ReadLine());
     Console.WriteLine("Введите количество столбцов в массиве...");
@@ -183,5 +183,5 @@ void Sum(int[,] numbers)
     Console.Write("]");
 }
 // HW1();
-// HW2();
+HW2();
 // HW3();
